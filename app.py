@@ -200,6 +200,7 @@ app.layout = html.Div(
                 )
             ],
         ),
+        
         # Right column
         html.Div(
             id="right-column",
@@ -214,7 +215,7 @@ app.layout = html.Div(
                         html.B("Demanda energética total en Austria [MW]"),
                         html.Hr(),
                         dcc.Graph(
-                            id="plot_series",
+                            id="plot_series",  
                         )
                     ],
                 ),
